@@ -1,0 +1,95 @@
+[
+null,
+{
+  "id": 1,
+  "battlerName": "",
+  "characterIndex": 0,
+  "characterName": "Actor1",
+  "classId": 1,
+  "equips": [
+    {"itemType": 1, "itemId": 1},
+    {"itemType": 1, "itemId": 1},
+    {"itemType": 2, "itemId": 1},
+    {"itemType": 3, "itemId": 1},
+    {"itemType": 4, "itemId": 1}
+  ],
+  "faceIndex": 0,
+  "faceName": "Actor1",
+  "traits": [],
+  "initialLevel": 1,
+  "exp": 0,
+  "params": [500, 50, 50, 50, 50, 50, 50, 50],
+  "name": "Xu Qi'an",
+  "nickname": "The Night Watchman",
+  "profile": "A modern police academy graduate transported to the Dafeng Dynasty. Uses his knowledge of investigation and modern science to solve crimes in an ancient world filled with magic and political intrigue."
+},
+{
+  "id": 2,
+  "battlerName": "",
+  "characterIndex": 1,
+  "characterName": "Actor2",
+  "classId": 2,
+  "equips": [
+    {"itemType": 1, "itemId": 2},
+    {"itemType": 1, "itemId": 1},
+    {"itemType": 2, "itemId": 2},
+    {"itemType": 3, "itemId": 2},
+    {"itemType": 4, "itemId": 2}
+  ],
+  "faceIndex": 1,
+  "faceName": "Actor2",
+  "traits": [],
+  "initialLevel": 1,
+  "exp": 0,
+  "params": [400, 30, 60, 45, 55, 60, 45, 55],
+  "name": "Princess Lin'an",
+  "nickname": "Second Princess",
+  "profile": "The second daughter of Emperor Yuanjing. Despite her royal status, she yearns for validation and understanding. Her journey with Xu Qi'an helps her grow from an immature princess to a capable leader."
+},
+{
+  "id": 3,
+  "battlerName": "",
+  "characterIndex": 2,
+  "characterName": "Actor3",
+  "classId": 3,
+  "equips": [
+    {"itemType": 1, "itemId": 3},
+    {"itemType": 1, "itemId": 1},
+    {"itemType": 2, "itemId": 3},
+    {"itemType": 3, "itemId": 3},
+    {"itemType": 4, "itemId": 3}
+  ],
+  "faceIndex": 2,
+  "faceName": "Actor3",
+  "traits": [],
+  "initialLevel": 5,
+  "exp": 0,
+  "params": [600, 70, 40, 60, 40, 45, 65, 40],
+  "name": "Wei Yuan",
+  "nickname": "Lord Wei",
+  "profile": "The strategic leader of the Guardians and Dafeng's most talented military mind. Once a powerful fighter, he now serves as the mastermind behind the night watch operations, guiding Xu Qi'an through the complex political landscape."
+},
+{
+  "id": 4,
+  "battlerName": "",
+  "characterIndex": 3,
+  "characterName": "Actor4",
+  "classId": 4,
+  "equips": [
+    {"itemType": 1, "itemId": 4},
+    {"itemType": 1, "itemId": 1},
+    {"itemType": 2, "itemId": 4},
+    {"itemType": 3, "itemId": 4},
+    {"itemType": 4, "itemId": 4}
+  ],
+  "faceIndex": 3,
+  "faceName": "Actor4",
+  "traits": [],
+  "initialLevel": 1,
+  "exp": 0,
+  "params": [450, 40, 55, 50, 60, 55, 50, 60],
+  "name": "Xu Xinnian",
+  "nickname": "The Scholar",
+  "profile": "Xu Qi'an's cousin and a brilliant student at Yunlu Academy. Sharp-tongued and intelligent, he specializes in military strategy and serves as both ally and intellectual rival to Xu Qi'an."
+}
+]
