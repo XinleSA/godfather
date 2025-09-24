@@ -1,0 +1,296 @@
+[
+null,
+{
+  "id": 1,
+  "name": "Guardian's Sword",
+  "description": "Standard issue sword for Night Watchmen. Well-balanced and reliable.",
+  "iconIndex": 0,
+  "price": 100,
+  "params": [10, 0, 5, 0, 0, 0, 0, 0],
+  "wtypeId": 1,
+  "animationId": 6,
+  "traits": [],
+  "etypeId": 1,
+  "note": "Basic weapon for Guardian class characters"
+},
+{
+  "id": 2,
+  "name": "Scholar's Staff",
+  "description": "A wooden staff used by academy scholars. Enhances magical abilities.",
+  "iconIndex": 1,
+  "price": 80,
+  "params": [5, 0, 0, 0, 15, 10, 0, 0],
+  "wtypeId": 2,
+  "animationId": 7,
+  "traits": [],
+  "etypeId": 1,
+  "note": "Basic weapon for Scholar class characters"
+},
+{
+  "id": 3,
+  "name": "Royal Ceremonial Blade",
+  "description": "An ornate blade befitting imperial status. More symbolic than practical.",
+  "iconIndex": 2,
+  "price": 200,
+  "params": [8, 0, 3, 0, 8, 12, 0, 0],
+  "wtypeId": 1,
+  "animationId": 6,
+  "traits": [],
+  "etypeId": 1,
+  "note": "Basic weapon for Royal class characters"
+},
+{
+  "id": 4,
+  "name": "Strategist's War Fan",
+  "description": "A metal war fan used by military commanders. Provides tactical advantages.",
+  "iconIndex": 3,
+  "price": 150,
+  "params": [12, 0, 8, 0, 5, 8, 0, 0],
+  "wtypeId": 3,
+  "animationId": 8,
+  "traits": [],
+  "etypeId": 1,
+  "note": "Basic weapon for Strategist class characters"
+},
+{
+  "id": 10,
+  "name": "Xu Qi'an's Investigation Blade",
+  "description": "A specially modified sword that incorporates modern forensic tools. Unique to Xu Qi'an.",
+  "iconIndex": 10,
+  "price": 0,
+  "params": [25, 0, 10, 0, 5, 5, 0, 0],
+  "wtypeId": 1,
+  "animationId": 6,
+  "traits": [
+    {"code": 31, "dataId": 1, "value": 1.2},
+    {"code": 32, "dataId": 13, "value1": 0, "value2": 0}
+  ],
+  "etypeId": 1,
+  "note": "Unique weapon - enhances investigation abilities and attack power"
+},
+{
+  "id": 11,
+  "name": "Bronze Gong's Saber",
+  "description": "Standard weapon for Bronze Gong rank Guardians. Sturdy and dependable.",
+  "iconIndex": 11,
+  "price": 300,
+  "params": [20, 0, 8, 0, 0, 0, 0, 0],
+  "wtypeId": 1,
+  "animationId": 6,
+  "traits": [],
+  "etypeId": 1,
+  "note": "Mid-tier Guardian weapon"
+},
+{
+  "id": 12,
+  "name": "Silver Gong's Blade",
+  "description": "Enhanced weapon for Silver Gong rank Guardians. Forged with superior techniques.",
+  "iconIndex": 12,
+  "price": 600,
+  "params": [35, 0, 12, 0, 0, 0, 0, 0],
+  "wtypeId": 1,
+  "animationId": 6,
+  "traits": [
+    {"code": 31, "dataId": 1, "value": 1.1}
+  ],
+  "etypeId": 1,
+  "note": "High-tier Guardian weapon with attack bonus"
+},
+{
+  "id": 13,
+  "name": "Gold Gong's Sword",
+  "description": "Elite weapon for Gold Gong rank Guardians. Imbued with spiritual energy.",
+  "iconIndex": 13,
+  "price": 1200,
+  "params": [50, 0, 18, 0, 5, 5, 0, 0],
+  "wtypeId": 1,
+  "animationId": 6,
+  "traits": [
+    {"code": 31, "dataId": 1, "value": 1.3},
+    {"code": 31, "dataId": 3, "value": 1.1}
+  ],
+  "etypeId": 1,
+  "note": "Elite Guardian weapon with significant bonuses"
+},
+{
+  "id": 20,
+  "name": "Taoist Immortal Sword",
+  "description": "A sword forged by Taoist masters. Channels spiritual qi for enhanced combat.",
+  "iconIndex": 20,
+  "price": 800,
+  "params": [30, 0, 5, 0, 20, 15, 0, 0],
+  "wtypeId": 1,
+  "animationId": 6,
+  "traits": [
+    {"code": 31, "dataId": 4, "value": 1.2},
+    {"code": 32, "dataId": 40, "value1": 0, "value2": 0}
+  ],
+  "etypeId": 1,
+  "note": "Taoist weapon - enhances magical abilities and qi techniques"
+},
+{
+  "id": 21,
+  "name": "Confucian Righteousness Sword",
+  "description": "A blade blessed with Confucian moral power. Strikes true against evil.",
+  "iconIndex": 21,
+  "price": 700,
+  "params": [28, 0, 15, 0, 10, 8, 0, 0],
+  "wtypeId": 1,
+  "animationId": 6,
+  "traits": [
+    {"code": 31, "dataId": 1, "value": 1.15},
+    {"code": 32, "dataId": 50, "value1": 0, "value2": 0}
+  ],
+  "etypeId": 1,
+  "note": "Confucian weapon - bonus damage against evil enemies"
+},
+{
+  "id": 22,
+  "name": "Buddhist Vajra Staff",
+  "description": "A staff wielded by Buddhist warrior monks. Channels dharma power.",
+  "iconIndex": 22,
+  "price": 750,
+  "params": [32, 0, 20, 0, 12, 10, 0, 0],
+  "wtypeId": 2,
+  "animationId": 7,
+  "traits": [
+    {"code": 31, "dataId": 2, "value": 1.2},
+    {"code": 32, "dataId": 60, "value1": 0, "value2": 0}
+  ],
+  "etypeId": 1,
+  "note": "Buddhist weapon - enhances defense and meditation abilities"
+},
+{
+  "id": 30,
+  "name": "Warlock's Enchanted Wand",
+  "description": "A wand used by court warlocks for divination and magical manipulation.",
+  "iconIndex": 30,
+  "price": 500,
+  "params": [8, 0, 0, 0, 25, 20, 0, 0],
+  "wtypeId": 4,
+  "animationId": 9,
+  "traits": [
+    {"code": 31, "dataId": 4, "value": 1.3},
+    {"code": 31, "dataId": 5, "value": 1.2}
+  ],
+  "etypeId": 1,
+  "note": "Warlock weapon - significantly enhances magical abilities"
+},
+{
+  "id": 31,
+  "name": "Shaman's Ritual Dagger",
+  "description": "A ceremonial dagger used in shamanic rituals. Channels spiritual forces.",
+  "iconIndex": 31,
+  "price": 400,
+  "params": [15, 0, 5, 0, 18, 15, 0, 0],
+  "wtypeId": 5,
+  "animationId": 10,
+  "traits": [
+    {"code": 31, "dataId": 4, "value": 1.25},
+    {"code": 32, "dataId": 70, "value1": 0, "value2": 0}
+  ],
+  "etypeId": 1,
+  "note": "Shaman weapon - enhances spiritual and magical abilities"
+},
+{
+  "id": 40,
+  "name": "Gu Master's Poison Blade",
+  "description": "A blade coated with Gu poison. Deadly to those who underestimate it.",
+  "iconIndex": 40,
+  "price": 900,
+  "params": [22, 0, 8, 0, 0, 0, 0, 0],
+  "wtypeId": 1,
+  "animationId": 6,
+  "traits": [
+    {"code": 32, "dataId": 4, "value1": 0, "value2": 0},
+    {"code": 31, "dataId": 1, "value": 1.1}
+  ],
+  "etypeId": 1,
+  "note": "Gu Master weapon - has chance to inflict poison on hit"
+},
+{
+  "id": 50,
+  "name": "Wei Yuan's Strategic Fan",
+  "description": "Lord Wei's personal war fan. A symbol of his tactical genius and authority.",
+  "iconIndex": 50,
+  "price": 0,
+  "params": [40, 0, 25, 0, 15, 20, 0, 0],
+  "wtypeId": 3,
+  "animationId": 8,
+  "traits": [
+    {"code": 31, "dataId": 1, "value": 1.4},
+    {"code": 31, "dataId": 6, "value": 1.5},
+    {"code": 32, "dataId": 22, "value1": 0, "value2": 0}
+  ],
+  "etypeId": 1,
+  "note": "Unique weapon - Wei Yuan's signature item with massive tactical bonuses"
+},
+{
+  "id": 51,
+  "name": "Princess Lin'an's Royal Scepter",
+  "description": "A ceremonial scepter symbolizing imperial authority and divine mandate.",
+  "iconIndex": 51,
+  "price": 0,
+  "params": [15, 0, 10, 0, 25, 30, 0, 0],
+  "wtypeId": 2,
+  "animationId": 7,
+  "traits": [
+    {"code": 31, "dataId": 4, "value": 1.3},
+    {"code": 31, "dataId": 5, "value": 1.4},
+    {"code": 32, "dataId": 17, "value1": 0, "value2": 0}
+  ],
+  "etypeId": 1,
+  "note": "Unique weapon - Princess Lin'an's scepter with imperial command abilities"
+},
+{
+  "id": 60,
+  "name": "Demon Slayer Blade",
+  "description": "A legendary sword specifically forged to combat supernatural entities.",
+  "iconIndex": 60,
+  "price": 2000,
+  "params": [45, 0, 15, 0, 8, 8, 0, 0],
+  "wtypeId": 1,
+  "animationId": 6,
+  "traits": [
+    {"code": 31, "dataId": 1, "value": 1.5},
+    {"code": 11, "dataId": 0, "value": 0}
+  ],
+  "etypeId": 1,
+  "note": "Legendary weapon - massive bonus damage against demons and supernatural enemies"
+},
+{
+  "id": 61,
+  "name": "Sangbo Lake Relic Sword",
+  "description": "A sword forged from materials found in Sangbo Lake. Contains mysterious power.",
+  "iconIndex": 61,
+  "price": 0,
+  "params": [55, 0, 20, 0, 15, 10, 0, 0],
+  "wtypeId": 1,
+  "animationId": 6,
+  "traits": [
+    {"code": 31, "dataId": 1, "value": 1.6},
+    {"code": 31, "dataId": 4, "value": 1.3},
+    {"code": 32, "dataId": 80, "value1": 0, "value2": 0}
+  ],
+  "etypeId": 1,
+  "note": "Legendary weapon - connected to the main story mystery"
+},
+{
+  "id": 70,
+  "name": "Immortal's Transcendent Blade",
+  "description": "A weapon that has transcended mortal limitations. Only for those who have reached the highest cultivation.",
+  "iconIndex": 70,
+  "price": 0,
+  "params": [80, 0, 30, 0, 25, 20, 0, 0],
+  "wtypeId": 1,
+  "animationId": 6,
+  "traits": [
+    {"code": 31, "dataId": 1, "value": 2.0},
+    {"code": 31, "dataId": 3, "value": 1.5},
+    {"code": 31, "dataId": 4, "value": 1.5},
+    {"code": 32, "dataId": 90, "value1": 0, "value2": 0}
+  ],
+  "etypeId": 1,
+  "note": "Ultimate weapon - for transcendent grade cultivators only"
+}
+]

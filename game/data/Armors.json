@@ -1,0 +1,336 @@
+[
+null,
+{
+  "id": 1,
+  "name": "Guardian's Uniform",
+  "description": "Standard protective uniform for Night Watchmen. Provides basic protection.",
+  "iconIndex": 0,
+  "price": 80,
+  "params": [0, 0, 8, 0, 0, 0, 0, 0],
+  "atypeId": 1,
+  "traits": [],
+  "etypeId": 2,
+  "note": "Basic armor for Guardian class characters"
+},
+{
+  "id": 2,
+  "name": "Scholar's Robes",
+  "description": "Traditional robes worn by academy scholars. Enhances mental focus.",
+  "iconIndex": 1,
+  "price": 60,
+  "params": [0, 0, 5, 0, 8, 10, 0, 0],
+  "atypeId": 2,
+  "traits": [],
+  "etypeId": 2,
+  "note": "Basic armor for Scholar class characters"
+},
+{
+  "id": 3,
+  "name": "Royal Silk Garments",
+  "description": "Luxurious silk clothing befitting imperial status. Provides social protection.",
+  "iconIndex": 2,
+  "price": 150,
+  "params": [0, 0, 6, 0, 5, 12, 0, 0],
+  "atypeId": 2,
+  "traits": [],
+  "etypeId": 2,
+  "note": "Basic armor for Royal class characters"
+},
+{
+  "id": 4,
+  "name": "Military Commander's Armor",
+  "description": "Practical armor worn by military strategists. Balances protection and mobility.",
+  "iconIndex": 3,
+  "price": 120,
+  "params": [0, 0, 12, 0, 0, 5, 0, 0],
+  "atypeId": 1,
+  "traits": [],
+  "etypeId": 2,
+  "note": "Basic armor for Strategist class characters"
+},
+{
+  "id": 10,
+  "name": "Bronze Gong Armor",
+  "description": "Reinforced armor for Bronze Gong rank Guardians. Sturdy and reliable.",
+  "iconIndex": 10,
+  "price": 200,
+  "params": [0, 0, 15, 0, 0, 0, 0, 0],
+  "atypeId": 1,
+  "traits": [],
+  "etypeId": 2,
+  "note": "Mid-tier Guardian armor"
+},
+{
+  "id": 11,
+  "name": "Silver Gong Armor",
+  "description": "Enhanced armor for Silver Gong rank Guardians. Provides superior protection.",
+  "iconIndex": 11,
+  "price": 400,
+  "params": [0, 0, 25, 0, 0, 0, 0, 0],
+  "atypeId": 1,
+  "traits": [
+    {"code": 31, "dataId": 3, "value": 1.1}
+  ],
+  "etypeId": 2,
+  "note": "High-tier Guardian armor with defense bonus"
+},
+{
+  "id": 12,
+  "name": "Gold Gong Armor",
+  "description": "Elite armor for Gold Gong rank Guardians. Imbued with protective enchantments.",
+  "iconIndex": 12,
+  "price": 800,
+  "params": [0, 0, 40, 0, 5, 5, 0, 0],
+  "atypeId": 1,
+  "traits": [
+    {"code": 31, "dataId": 3, "value": 1.2},
+    {"code": 31, "dataId": 2, "value": 1.1}
+  ],
+  "etypeId": 2,
+  "note": "Elite Guardian armor with significant bonuses"
+},
+{
+  "id": 20,
+  "name": "Taoist Immortal Robes",
+  "description": "Flowing robes worn by Taoist cultivators. Enhances spiritual energy flow.",
+  "iconIndex": 20,
+  "price": 300,
+  "params": [0, 0, 10, 0, 15, 20, 0, 0],
+  "atypeId": 2,
+  "traits": [
+    {"code": 31, "dataId": 4, "value": 1.2},
+    {"code": 31, "dataId": 5, "value": 1.15}
+  ],
+  "etypeId": 2,
+  "note": "Taoist armor - enhances magical abilities"
+},
+{
+  "id": 21,
+  "name": "Confucian Scholar's Vestments",
+  "description": "Formal vestments worn by Confucian scholars. Radiates moral authority.",
+  "iconIndex": 21,
+  "price": 250,
+  "params": [0, 0, 12, 0, 10, 18, 0, 0],
+  "atypeId": 2,
+  "traits": [
+    {"code": 31, "dataId": 5, "value": 1.2},
+    {"code": 32, "dataId": 52, "value1": 0, "value2": 0}
+  ],
+  "etypeId": 2,
+  "note": "Confucian armor - enhances moral and social abilities"
+},
+{
+  "id": 22,
+  "name": "Buddhist Monk's Robes",
+  "description": "Simple robes worn by Buddhist monks. Provides spiritual protection.",
+  "iconIndex": 22,
+  "price": 200,
+  "params": [0, 0, 18, 0, 8, 15, 0, 0],
+  "atypeId": 2,
+  "traits": [
+    {"code": 31, "dataId": 2, "value": 1.25},
+    {"code": 31, "dataId": 5, "value": 1.1}
+  ],
+  "etypeId": 2,
+  "note": "Buddhist armor - enhances defense and spiritual resistance"
+},
+{
+  "id": 30,
+  "name": "Warlock's Enchanted Robes",
+  "description": "Robes woven with magical threads. Amplifies arcane power.",
+  "iconIndex": 30,
+  "price": 350,
+  "params": [0, 0, 8, 0, 20, 25, 0, 0],
+  "atypeId": 2,
+  "traits": [
+    {"code": 31, "dataId": 4, "value": 1.3},
+    {"code": 31, "dataId": 5, "value": 1.25}
+  ],
+  "etypeId": 2,
+  "note": "Warlock armor - significantly enhances magical abilities"
+},
+{
+  "id": 31,
+  "name": "Shaman's Ritual Garb",
+  "description": "Traditional garments worn during shamanic ceremonies. Channels spiritual forces.",
+  "iconIndex": 31,
+  "price": 280,
+  "params": [0, 0, 12, 0, 15, 18, 0, 0],
+  "atypeId": 2,
+  "traits": [
+    {"code": 31, "dataId": 4, "value": 1.2},
+    {"code": 31, "dataId": 5, "value": 1.2}
+  ],
+  "etypeId": 2,
+  "note": "Shaman armor - enhances spiritual and magical abilities"
+},
+{
+  "id": 40,
+  "name": "Gu Master's Protective Vest",
+  "description": "A vest lined with protective Gu insects. Provides immunity to many poisons.",
+  "iconIndex": 40,
+  "price": 500,
+  "params": [0, 0, 20, 0, 0, 0, 0, 0],
+  "atypeId": 1,
+  "traits": [
+    {"code": 14, "dataId": 4, "value": 0},
+    {"code": 31, "dataId": 3, "value": 1.15}
+  ],
+  "etypeId": 2,
+  "note": "Gu Master armor - immunity to poison and enhanced defense"
+},
+{
+  "id": 50,
+  "name": "Wei Yuan's Strategic Cloak",
+  "description": "Lord Wei's personal cloak. Enhances tactical awareness and leadership presence.",
+  "iconIndex": 50,
+  "price": 0,
+  "params": [0, 0, 30, 0, 10, 25, 0, 0],
+  "atypeId": 2,
+  "traits": [
+    {"code": 31, "dataId": 6, "value": 1.4},
+    {"code": 31, "dataId": 7, "value": 1.3},
+    {"code": 32, "dataId": 21, "value1": 0, "value2": 0}
+  ],
+  "etypeId": 2,
+  "note": "Unique armor - Wei Yuan's cloak with massive tactical bonuses"
+},
+{
+  "id": 51,
+  "name": "Princess Lin'an's Imperial Gown",
+  "description": "An exquisite gown that embodies imperial majesty and divine authority.",
+  "iconIndex": 51,
+  "price": 0,
+  "params": [0, 0, 15, 0, 15, 35, 0, 0],
+  "atypeId": 2,
+  "traits": [
+    {"code": 31, "dataId": 4, "value": 1.25},
+    {"code": 31, "dataId": 5, "value": 1.35},
+    {"code": 32, "dataId": 15, "value1": 0, "value2": 0}
+  ],
+  "etypeId": 2,
+  "note": "Unique armor - Princess Lin'an's gown with imperial presence"
+},
+{
+  "id": 52,
+  "name": "Xu Qi'an's Investigation Coat",
+  "description": "A specially designed coat with hidden pockets for investigation tools. Unique to Xu Qi'an.",
+  "iconIndex": 52,
+  "price": 0,
+  "params": [0, 0, 22, 0, 8, 12, 0, 0],
+  "atypeId": 2,
+  "traits": [
+    {"code": 31, "dataId": 1, "value": 1.1},
+    {"code": 32, "dataId": 13, "value1": 0, "value2": 0},
+    {"code": 32, "dataId": 14, "value1": 0, "value2": 0}
+  ],
+  "etypeId": 2,
+  "note": "Unique armor - enhances investigation abilities and provides protection"
+},
+{
+  "id": 60,
+  "name": "Demon Ward Armor",
+  "description": "Armor inscribed with protective wards against supernatural entities.",
+  "iconIndex": 60,
+  "price": 1200,
+  "params": [0, 0, 35, 0, 10, 10, 0, 0],
+  "atypeId": 1,
+  "traits": [
+    {"code": 31, "dataId": 3, "value": 1.3},
+    {"code": 11, "dataId": 0, "value": 0}
+  ],
+  "etypeId": 2,
+  "note": "Legendary armor - provides protection against demons and supernatural attacks"
+},
+{
+  "id": 61,
+  "name": "Sangbo Lake Relic Armor",
+  "description": "Armor forged from mysterious materials found in Sangbo Lake. Contains unknown power.",
+  "iconIndex": 61,
+  "price": 0,
+  "params": [0, 0, 45, 0, 15, 15, 0, 0],
+  "atypeId": 1,
+  "traits": [
+    {"code": 31, "dataId": 3, "value": 1.4},
+    {"code": 31, "dataId": 4, "value": 1.2},
+    {"code": 32, "dataId": 80, "value1": 0, "value2": 0}
+  ],
+  "etypeId": 2,
+  "note": "Legendary armor - connected to the main story mystery"
+},
+{
+  "id": 70,
+  "name": "Immortal's Transcendent Robes",
+  "description": "Robes that have transcended mortal limitations. Only for those who have reached the highest cultivation.",
+  "iconIndex": 70,
+  "price": 0,
+  "params": [0, 0, 60, 0, 30, 30, 0, 0],
+  "atypeId": 2,
+  "traits": [
+    {"code": 31, "dataId": 3, "value": 1.8},
+    {"code": 31, "dataId": 4, "value": 1.6},
+    {"code": 31, "dataId": 5, "value": 1.6},
+    {"code": 32, "dataId": 90, "value1": 0, "value2": 0}
+  ],
+  "etypeId": 2,
+  "note": "Ultimate armor - for transcendent grade cultivators only"
+},
+{
+  "id": 80,
+  "name": "Guardian's Protective Charm",
+  "description": "A protective charm worn by all Guardians. Provides basic magical resistance.",
+  "iconIndex": 80,
+  "price": 50,
+  "params": [0, 0, 3, 0, 5, 5, 0, 0],
+  "atypeId": 3,
+  "traits": [
+    {"code": 31, "dataId": 5, "value": 1.1}
+  ],
+  "etypeId": 3,
+  "note": "Basic accessory for Guardian characters"
+},
+{
+  "id": 81,
+  "name": "Scholar's Wisdom Pendant",
+  "description": "A pendant that enhances intellectual capabilities and memory.",
+  "iconIndex": 81,
+  "price": 80,
+  "params": [0, 0, 0, 0, 8, 12, 0, 0],
+  "atypeId": 3,
+  "traits": [
+    {"code": 31, "dataId": 4, "value": 1.15},
+    {"code": 31, "dataId": 5, "value": 1.15}
+  ],
+  "etypeId": 3,
+  "note": "Basic accessory for Scholar characters"
+},
+{
+  "id": 82,
+  "name": "Royal Jade Ornament",
+  "description": "An ornate jade piece symbolizing imperial favor and divine mandate.",
+  "iconIndex": 82,
+  "price": 200,
+  "params": [0, 0, 5, 0, 8, 15, 0, 0],
+  "atypeId": 3,
+  "traits": [
+    {"code": 31, "dataId": 5, "value": 1.2},
+    {"code": 32, "dataId": 16, "value1": 0, "value2": 0}
+  ],
+  "etypeId": 3,
+  "note": "Basic accessory for Royal characters"
+},
+{
+  "id": 90,
+  "name": "Cultivation Breakthrough Pill",
+  "description": "A rare pill that aids in breaking through cultivation bottlenecks.",
+  "iconIndex": 90,
+  "price": 2000,
+  "params": [0, 0, 0, 0, 0, 0, 0, 0],
+  "atypeId": 3,
+  "traits": [
+    {"code": 44, "dataId": 0, "value1": 1000, "value2": 0}
+  ],
+  "etypeId": 3,
+  "note": "Special accessory - grants massive experience when equipped"
+}
+]

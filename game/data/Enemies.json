@@ -1,0 +1,336 @@
+[
+null,
+{
+  "id": 1,
+  "name": "Corrupt Official",
+  "battlerName": "Enemy1",
+  "battlerHue": 0,
+  "params": [120, 25, 30, 25, 20, 25, 30, 20],
+  "exp": 50,
+  "gold": 100,
+  "dropItems": [
+    {"kind": 2, "dataId": 51, "denominator": 3},
+    {"kind": 1, "dataId": 1, "denominator": 2}
+  ],
+  "actions": [
+    {"conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 5, "skillId": 1},
+    {"conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 3, "skillId": 100}
+  ],
+  "traits": [],
+  "note": "Low-level human enemy - represents corruption in the government"
+},
+{
+  "id": 2,
+  "name": "Bandit Leader",
+  "battlerName": "Enemy2",
+  "battlerHue": 0,
+  "params": [180, 40, 35, 30, 25, 30, 35, 25],
+  "exp": 80,
+  "gold": 150,
+  "dropItems": [
+    {"kind": 3, "dataId": 11, "denominator": 4},
+    {"kind": 1, "dataId": 1, "denominator": 1}
+  ],
+  "actions": [
+    {"conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 5, "skillId": 1},
+    {"conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 4, "skillId": 101}
+  ],
+  "traits": [],
+  "note": "Mid-level human enemy - leads criminal organizations"
+},
+{
+  "id": 3,
+  "name": "Rogue Cultivator",
+  "battlerName": "Enemy3",
+  "battlerHue": 0,
+  "params": [220, 35, 40, 35, 40, 35, 40, 30],
+  "exp": 120,
+  "gold": 200,
+  "dropItems": [
+    {"kind": 2, "dataId": 11, "denominator": 3},
+    {"kind": 2, "dataId": 41, "denominator": 5}
+  ],
+  "actions": [
+    {"conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 4, "skillId": 1},
+    {"conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 5, "skillId": 31},
+    {"conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 3, "skillId": 5}
+  ],
+  "traits": [],
+  "note": "Cultivator who has turned to evil - uses Refining Qi techniques"
+},
+{
+  "id": 10,
+  "name": "Lesser Demon",
+  "battlerName": "Enemy4",
+  "battlerHue": 30,
+  "params": [300, 50, 25, 40, 35, 30, 25, 35],
+  "exp": 150,
+  "gold": 80,
+  "dropItems": [
+    {"kind": 2, "dataId": 60, "denominator": 6},
+    {"kind": 2, "dataId": 43, "denominator": 4}
+  ],
+  "actions": [
+    {"conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 5, "skillId": 1},
+    {"conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 4, "skillId": 110},
+    {"conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 3, "skillId": 111}
+  ],
+  "traits": [
+    {"code": 11, "dataId": 0, "value": 0}
+  ],
+  "note": "Supernatural enemy - vulnerable to demon slayer weapons and Buddhist techniques"
+},
+{
+  "id": 11,
+  "name": "Corrupted Spirit",
+  "battlerName": "Enemy5",
+  "battlerHue": 60,
+  "params": [250, 30, 20, 30, 50, 45, 20, 40],
+  "exp": 180,
+  "gold": 50,
+  "dropItems": [
+    {"kind": 2, "dataId": 21, "denominator": 4},
+    {"kind": 2, "dataId": 42, "denominator": 5}
+  ],
+  "actions": [
+    {"conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 3, "skillId": 1},
+    {"conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 5, "skillId": 112},
+    {"conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 4, "skillId": 113}
+  ],
+  "traits": [
+    {"code": 11, "dataId": 0, "value": 0},
+    {"code": 31, "dataId": 5, "value": 1.5}
+  ],
+  "note": "Spiritual enemy - high magical resistance, vulnerable to Confucian righteousness"
+},
+{
+  "id": 12,
+  "name": "Gu Insect Swarm",
+  "battlerName": "Enemy6",
+  "battlerHue": 90,
+  "params": [180, 35, 15, 25, 30, 25, 45, 35],
+  "exp": 100,
+  "gold": 120,
+  "dropItems": [
+    {"kind": 2, "dataId": 60, "denominator": 2},
+    {"kind": 2, "dataId": 12, "denominator": 6}
+  ],
+  "actions": [
+    {"conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 5, "skillId": 114},
+    {"conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 4, "skillId": 115},
+    {"conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 3, "skillId": 1}
+  ],
+  "traits": [
+    {"code": 14, "dataId": 4, "value": 0}
+  ],
+  "note": "Gu Master creation - immune to poison, uses swarm attacks"
+},
+{
+  "id": 20,
+  "name": "Fallen Taoist",
+  "battlerName": "Enemy7",
+  "battlerHue": 120,
+  "params": [400, 45, 35, 40, 60, 55, 35, 45],
+  "exp": 250,
+  "gold": 300,
+  "dropItems": [
+    {"kind": 2, "dataId": 13, "denominator": 4},
+    {"kind": 3, "dataId": 20, "denominator": 6}
+  ],
+  "actions": [
+    {"conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 3, "skillId": 1},
+    {"conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 5, "skillId": 42},
+    {"conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 4, "skillId": 5},
+    {"conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 3, "skillId": 120}
+  ],
+  "traits": [],
+  "note": "High-level cultivator enemy - uses Golden Core techniques and elemental magic"
+},
+{
+  "id": 21,
+  "name": "Corrupted Confucian Scholar",
+  "battlerName": "Enemy8",
+  "battlerHue": 150,
+  "params": [350, 40, 45, 45, 50, 60, 40, 50],
+  "exp": 220,
+  "gold": 250,
+  "dropItems": [
+    {"kind": 2, "dataId": 20, "denominator": 3},
+    {"kind": 3, "dataId": 21, "denominator": 5}
+  ],
+  "actions": [
+    {"conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 4, "skillId": 1},
+    {"conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 5, "skillId": 52},
+    {"conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 4, "skillId": 121},
+    {"conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 3, "skillId": 122}
+  ],
+  "traits": [],
+  "note": "Corrupted scholar - uses perverted Confucian techniques for evil purposes"
+},
+{
+  "id": 22,
+  "name": "Rogue Buddhist Monk",
+  "battlerName": "Enemy9",
+  "battlerHue": 180,
+  "params": [450, 55, 60, 50, 40, 45, 50, 40],
+  "exp": 280,
+  "gold": 200,
+  "dropItems": [
+    {"kind": 2, "dataId": 21, "denominator": 3},
+    {"kind": 3, "dataId": 22, "denominator": 5}
+  ],
+  "actions": [
+    {"conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 5, "skillId": 1},
+    {"conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 4, "skillId": 62},
+    {"conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 3, "skillId": 61},
+    {"conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 3, "skillId": 123}
+  ],
+  "traits": [
+    {"code": 31, "dataId": 2, "value": 1.3}
+  ],
+  "note": "Fallen monk - uses Vajra Body and corrupted Buddhist techniques"
+},
+{
+  "id": 30,
+  "name": "Court Warlock",
+  "battlerName": "Enemy10",
+  "battlerHue": 210,
+  "params": [320, 35, 25, 35, 70, 65, 30, 55],
+  "exp": 300,
+  "gold": 400,
+  "dropItems": [
+    {"kind": 2, "dataId": 61, "denominator": 3},
+    {"kind": 3, "dataId": 30, "denominator": 4}
+  ],
+  "actions": [
+    {"conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 2, "skillId": 1},
+    {"conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 5, "skillId": 130},
+    {"conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 4, "skillId": 131},
+    {"conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 4, "skillId": 132}
+  ],
+  "traits": [],
+  "note": "High-level warlock - uses divination, alchemy, and formation magic"
+},
+{
+  "id": 31,
+  "name": "Gu Master Assassin",
+  "battlerName": "Enemy11",
+  "battlerHue": 240,
+  "params": [380, 60, 40, 55, 45, 40, 65, 50],
+  "exp": 350,
+  "gold": 500,
+  "dropItems": [
+    {"kind": 2, "dataId": 60, "denominator": 2},
+    {"kind": 3, "dataId": 40, "denominator": 4}
+  ],
+  "actions": [
+    {"conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 4, "skillId": 1},
+    {"conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 5, "skillId": 140},
+    {"conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 4, "skillId": 141},
+    {"conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 3, "skillId": 142}
+  ],
+  "traits": [
+    {"code": 14, "dataId": 4, "value": 0}
+  ],
+  "note": "Elite Gu Master - uses multiple Gu types and deadly poison attacks"
+},
+{
+  "id": 40,
+  "name": "Greater Demon",
+  "battlerName": "Enemy12",
+  "battlerHue": 270,
+  "params": [600, 70, 50, 60, 55, 50, 45, 55],
+  "exp": 500,
+  "gold": 300,
+  "dropItems": [
+    {"kind": 2, "dataId": 13, "denominator": 4},
+    {"kind": 2, "dataId": 40, "denominator": 6}
+  ],
+  "actions": [
+    {"conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 4, "skillId": 1},
+    {"conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 5, "skillId": 150},
+    {"conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 4, "skillId": 151},
+    {"conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 3, "skillId": 152}
+  ],
+  "traits": [
+    {"code": 11, "dataId": 0, "value": 0},
+    {"code": 31, "dataId": 1, "value": 1.2}
+  ],
+  "note": "Powerful supernatural enemy - major boss-level demon"
+},
+{
+  "id": 41,
+  "name": "Sangbo Lake Guardian",
+  "battlerName": "Enemy13",
+  "battlerHue": 300,
+  "params": [800, 80, 70, 70, 60, 65, 55, 60],
+  "exp": 800,
+  "gold": 1000,
+  "dropItems": [
+    {"kind": 2, "dataId": 40, "denominator": 1},
+    {"kind": 3, "dataId": 61, "denominator": 3}
+  ],
+  "actions": [
+    {"conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 3, "skillId": 1},
+    {"conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 5, "skillId": 160},
+    {"conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 4, "skillId": 161},
+    {"conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 4, "skillId": 162}
+  ],
+  "traits": [
+    {"code": 11, "dataId": 0, "value": 0},
+    {"code": 31, "dataId": 3, "value": 1.5}
+  ],
+  "note": "Story boss - guardian of the Sangbo Lake mystery"
+},
+{
+  "id": 50,
+  "name": "Conspiracy Mastermind",
+  "battlerName": "Enemy14",
+  "battlerHue": 330,
+  "params": [1000, 90, 80, 80, 85, 90, 70, 75],
+  "exp": 1200,
+  "gold": 2000,
+  "dropItems": [
+    {"kind": 2, "dataId": 70, "denominator": 1},
+    {"kind": 3, "dataId": 70, "denominator": 2}
+  ],
+  "actions": [
+    {"conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 3, "skillId": 1},
+    {"conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 5, "skillId": 170},
+    {"conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 4, "skillId": 171},
+    {"conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 4, "skillId": 172},
+    {"conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 3, "skillId": 173}
+  ],
+  "traits": [
+    {"code": 31, "dataId": 1, "value": 1.3},
+    {"code": 31, "dataId": 4, "value": 1.4}
+  ],
+  "note": "Final boss - the hidden power behind the conspiracy"
+},
+{
+  "id": 60,
+  "name": "Transcendent Cultivator",
+  "battlerName": "Enemy15",
+  "battlerHue": 0,
+  "params": [1500, 120, 100, 100, 100, 100, 90, 90],
+  "exp": 2000,
+  "gold": 5000,
+  "dropItems": [
+    {"kind": 3, "dataId": 70, "denominator": 1},
+    {"kind": 2, "dataId": 13, "denominator": 1}
+  ],
+  "actions": [
+    {"conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 2, "skillId": 1},
+    {"conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 5, "skillId": 180},
+    {"conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 4, "skillId": 181},
+    {"conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 4, "skillId": 182},
+    {"conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 3, "skillId": 183}
+  ],
+  "traits": [
+    {"code": 31, "dataId": 1, "value": 1.5},
+    {"code": 31, "dataId": 3, "value": 1.5},
+    {"code": 31, "dataId": 4, "value": 1.5}
+  ],
+  "note": "Ultimate boss - a cultivator who has reached transcendent grade"
+}
+]

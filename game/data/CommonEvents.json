@@ -1,0 +1,279 @@
+[
+null,
+{
+  "id": 1,
+  "name": "Investigation System",
+  "trigger": 1,
+  "switchId": 1,
+  "list": [
+    {"code": 101, "indent": 0, "parameters": ["Investigation Mode Activated", 0, 0, 2]},
+    {"code": 122, "indent": 0, "parameters": [1, 1, 0, 0, 30]},
+    {"code": 311, "indent": 0, "parameters": ["What would you like to investigate?"]},
+    {"code": 102, "indent": 0, "parameters": [["Examine the scene", "Interview witnesses", "Analyze evidence", "Make deduction"]]},
+    {"code": 402, "indent": 1, "parameters": [0, "Examine the scene"]},
+    {"code": 117, "indent": 2, "parameters": [2]},
+    {"code": 402, "indent": 1, "parameters": [1, "Interview witnesses"]},
+    {"code": 117, "indent": 2, "parameters": [3]},
+    {"code": 402, "indent": 1, "parameters": [2, "Analyze evidence"]},
+    {"code": 117, "indent": 2, "parameters": [4]},
+    {"code": 402, "indent": 1, "parameters": [3, "Make deduction"]},
+    {"code": 117, "indent": 2, "parameters": [5]},
+    {"code": 404, "indent": 1, "parameters": []},
+    {"code": 0, "indent": 0, "parameters": []}
+  ],
+  "note": "Main investigation system - provides investigation options"
+},
+{
+  "id": 2,
+  "name": "Examine Scene",
+  "trigger": 1,
+  "switchId": 2,
+  "list": [
+    {"code": 101, "indent": 0, "parameters": ["You carefully examine the crime scene...", 0, 0, 2]},
+    {"code": 355, "indent": 0, "parameters": ["$gameParty.leader().hasSkill(13)"]},
+    {"code": 101, "indent": 1, "parameters": ["Your investigation skills reveal hidden details!", 0, 0, 2]},
+    {"code": 126, "indent": 1, "parameters": [1, 0, 0, 1, 50]},
+    {"code": 125, "indent": 1, "parameters": [0, 0, 50]},
+    {"code": 411, "indent": 0, "parameters": []},
+    {"code": 101, "indent": 1, "parameters": ["You notice some basic details but miss the finer points.", 0, 0, 2]},
+    {"code": 125, "indent": 1, "parameters": [0, 0, 25]},
+    {"code": 412, "indent": 0, "parameters": []},
+    {"code": 121, "indent": 0, "parameters": [10, 10, 0]},
+    {"code": 0, "indent": 0, "parameters": []}
+  ],
+  "note": "Scene examination - uses Investigation skill for better results"
+},
+{
+  "id": 3,
+  "name": "Interview Witnesses",
+  "trigger": 1,
+  "switchId": 3,
+  "list": [
+    {"code": 101, "indent": 0, "parameters": ["You begin interviewing witnesses...", 0, 0, 2]},
+    {"code": 355, "indent": 0, "parameters": ["$gameParty.leader().hasSkill(12)"]},
+    {"code": 101, "indent": 1, "parameters": ["Your psychological insight detects deception!", 0, 0, 2]},
+    {"code": 126, "indent": 1, "parameters": [1, 0, 0, 1, 51]},
+    {"code": 125, "indent": 1, "parameters": [0, 0, 75]},
+    {"code": 411, "indent": 0, "parameters": []},
+    {"code": 101, "indent": 1, "parameters": ["You gather basic testimony but may have missed lies.", 0, 0, 2]},
+    {"code": 125, "indent": 1, "parameters": [0, 0, 35]},
+    {"code": 412, "indent": 0, "parameters": []},
+    {"code": 121, "indent": 0, "parameters": [12, 18, 0]},
+    {"code": 0, "indent": 0, "parameters": []}
+  ],
+  "note": "Witness interviews - uses Psychological Insight for lie detection"
+},
+{
+  "id": 4,
+  "name": "Analyze Evidence",
+  "trigger": 1,
+  "switchId": 4,
+  "list": [
+    {"code": 101, "indent": 0, "parameters": ["You analyze the physical evidence...", 0, 0, 2]},
+    {"code": 355, "indent": 0, "parameters": ["$gameParty.leader().hasSkill(11)"]},
+    {"code": 101, "indent": 1, "parameters": ["Your scientific knowledge reveals crucial details!", 0, 0, 2]},
+    {"code": 126, "indent": 1, "parameters": [1, 0, 0, 1, 52]},
+    {"code": 125, "indent": 1, "parameters": [0, 0, 100]},
+    {"code": 411, "indent": 0, "parameters": []},
+    {"code": 101, "indent": 1, "parameters": ["You identify basic properties but lack deeper insight.", 0, 0, 2]},
+    {"code": 125, "indent": 1, "parameters": [0, 0, 40]},
+    {"code": 412, "indent": 0, "parameters": []},
+    {"code": 121, "indent": 0, "parameters": [15, 20, 0]},
+    {"code": 0, "indent": 0, "parameters": []}
+  ],
+  "note": "Evidence analysis - uses Scientific Analysis for detailed results"
+},
+{
+  "id": 5,
+  "name": "Make Deduction",
+  "trigger": 1,
+  "switchId": 5,
+  "list": [
+    {"code": 101, "indent": 0, "parameters": ["You attempt to piece together the clues...", 0, 0, 2]},
+    {"code": 355, "indent": 0, "parameters": ["$gameParty.leader().hasSkill(14)"]},
+    {"code": 111, "indent": 1, "parameters": [0, 10, 3]},
+    {"code": 101, "indent": 2, "parameters": ["Your deductive reasoning solves the mystery!", 0, 0, 2]},
+    {"code": 125, "indent": 2, "parameters": [0, 0, 200]},
+    {"code": 315, "indent": 2, "parameters": [0]},
+    {"code": 411, "indent": 1, "parameters": []},
+    {"code": 101, "indent": 2, "parameters": ["You need more clues before making a deduction.", 0, 0, 2]},
+    {"code": 412, "indent": 1, "parameters": []},
+    {"code": 411, "indent": 0, "parameters": []},
+    {"code": 101, "indent": 1, "parameters": ["You lack the deductive skills to solve this mystery.", 0, 0, 2]},
+    {"code": 412, "indent": 0, "parameters": []},
+    {"code": 121, "indent": 0, "parameters": [25, 25, 0]},
+    {"code": 0, "indent": 0, "parameters": []}
+  ],
+  "note": "Deduction system - requires Deduction skill and sufficient clues"
+},
+{
+  "id": 10,
+  "name": "Cultivation Breakthrough",
+  "trigger": 1,
+  "switchId": 10,
+  "list": [
+    {"code": 101, "indent": 0, "parameters": ["You feel your cultivation reaching a breakthrough point...", 0, 0, 2]},
+    {"code": 230, "indent": 0, "parameters": [1]},
+    {"code": 132, "indent": 0, "parameters": [0, 0, 50]},
+    {"code": 101, "indent": 0, "parameters": ["Spiritual energy surges through your body!", 0, 0, 2]},
+    {"code": 311, "indent": 0, "parameters": ["Choose your cultivation path:"]},
+    {"code": 355, "indent": 0, "parameters": ["$dataClasses[$gameActors.actor(1).classId].name === 'Guardian'"]},
+    {"code": 102, "indent": 1, "parameters": [["Warrior Path", "Modern Knowledge Path"]]},
+    {"code": 402, "indent": 2, "parameters": [0, "Warrior Path"]},
+    {"code": 117, "indent": 3, "parameters": [11]},
+    {"code": 402, "indent": 2, "parameters": [1, "Modern Knowledge Path"]},
+    {"code": 117, "indent": 3, "parameters": [12]},
+    {"code": 404, "indent": 2, "parameters": []},
+    {"code": 411, "indent": 0, "parameters": []},
+    {"code": 102, "indent": 1, "parameters": [["Continue current path"]]},
+    {"code": 402, "indent": 2, "parameters": [0, "Continue current path"]},
+    {"code": 117, "indent": 3, "parameters": [13]},
+    {"code": 404, "indent": 2, "parameters": []},
+    {"code": 412, "indent": 0, "parameters": []},
+    {"code": 0, "indent": 0, "parameters": []}
+  ],
+  "note": "Cultivation breakthrough system - allows path selection"
+},
+{
+  "id": 11,
+  "name": "Warrior Path Breakthrough",
+  "trigger": 1,
+  "switchId": 11,
+  "list": [
+    {"code": 101, "indent": 0, "parameters": ["You choose the path of the warrior!", 0, 0, 2]},
+    {"code": 132, "indent": 0, "parameters": [0, 0, 30]},
+    {"code": 313, "indent": 0, "parameters": [0, 1, 30]},
+    {"code": 314, "indent": 0, "parameters": [0, 1, 31]},
+    {"code": 101, "indent": 0, "parameters": ["You learn Refining Essence and Refining Qi techniques!", 0, 0, 2]},
+    {"code": 0, "indent": 0, "parameters": []}
+  ],
+  "note": "Warrior cultivation path - learns warrior techniques"
+},
+{
+  "id": 12,
+  "name": "Modern Knowledge Path",
+  "trigger": 1,
+  "switchId": 12,
+  "list": [
+    {"code": 101, "indent": 0, "parameters": ["You enhance your modern knowledge abilities!", 0, 0, 2]},
+    {"code": 132, "indent": 0, "parameters": [0, 0, 10]},
+    {"code": 314, "indent": 0, "parameters": [0, 1, 10]},
+    {"code": 314, "indent": 0, "parameters": [0, 1, 11]},
+    {"code": 314, "indent": 0, "parameters": [0, 1, 12]},
+    {"code": 101, "indent": 0, "parameters": ["Your investigative abilities have greatly improved!", 0, 0, 2]},
+    {"code": 0, "indent": 0, "parameters": []}
+  ],
+  "note": "Modern knowledge path - enhances investigation skills"
+},
+{
+  "id": 20,
+  "name": "Royal Authority Event",
+  "trigger": 1,
+  "switchId": 20,
+  "list": [
+    {"code": 101, "indent": 0, "parameters": ["Princess Lin'an steps forward with imperial authority...", 0, 0, 2]},
+    {"code": 355, "indent": 0, "parameters": ["$gameParty.hasItem($dataItems[32], false)"]},
+    {"code": 101, "indent": 1, "parameters": ["The Royal Seal glows with imperial power!", 0, 0, 2]},
+    {"code": 132, "indent": 1, "parameters": [0, 0, 15]},
+    {"code": 101, "indent": 1, "parameters": ["'By imperial decree, you will comply!'", 0, 0, 2]},
+    {"code": 122, "indent": 1, "parameters": [21, 21, 0, 0, 31]},
+    {"code": 411, "indent": 0, "parameters": []},
+    {"code": 101, "indent": 1, "parameters": ["Without the Royal Seal, her authority is questioned.", 0, 0, 2]},
+    {"code": 412, "indent": 0, "parameters": []},
+    {"code": 0, "indent": 0, "parameters": []}
+  ],
+  "note": "Royal authority system - requires Royal Seal for full effect"
+},
+{
+  "id": 21,
+  "name": "Strategic Planning",
+  "trigger": 1,
+  "switchId": 21,
+  "list": [
+    {"code": 101, "indent": 0, "parameters": ["Wei Yuan unfolds his strategic manual...", 0, 0, 2]},
+    {"code": 355, "indent": 0, "parameters": ["$gameParty.hasItem($dataItems[33], false)"]},
+    {"code": 101, "indent": 1, "parameters": ["'According to the Art of War, we should...'", 0, 0, 2]},
+    {"code": 132, "indent": 1, "parameters": [0, 0, 22]},
+    {"code": 122, "indent": 1, "parameters": [18, 18, 0, 0, 32]},
+    {"code": 122, "indent": 1, "parameters": [19, 19, 0, 0, 32]},
+    {"code": 122, "indent": 1, "parameters": [21, 21, 0, 0, 32]},
+    {"code": 101, "indent": 1, "parameters": ["The party gains tactical advantage!", 0, 0, 2]},
+    {"code": 411, "indent": 0, "parameters": []},
+    {"code": 101, "indent": 1, "parameters": ["Wei Yuan relies on his experience alone.", 0, 0, 2]},
+    {"code": 122, "indent": 1, "parameters": [18, 18, 0, 0, 32]},
+    {"code": 412, "indent": 0, "parameters": []},
+    {"code": 0, "indent": 0, "parameters": []}
+  ],
+  "note": "Strategic planning system - enhances party tactical abilities"
+},
+{
+  "id": 30,
+  "name": "Sangbo Lake Mystery",
+  "trigger": 1,
+  "switchId": 30,
+  "list": [
+    {"code": 101, "indent": 0, "parameters": ["The Sangbo Lake fragment begins to resonate...", 0, 0, 2]},
+    {"code": 355, "indent": 0, "parameters": ["$gameParty.hasItem($dataItems[40], false)"]},
+    {"code": 230, "indent": 1, "parameters": [2]},
+    {"code": 101, "indent": 1, "parameters": ["Mysterious energy emanates from the fragment!", 0, 0, 2]},
+    {"code": 132, "indent": 1, "parameters": [0, 0, 80]},
+    {"code": 122, "indent": 1, "parameters": [80, 80, 0, 0, 80]},
+    {"code": 101, "indent": 1, "parameters": ["You feel connected to the ancient power of Sangbo Lake!", 0, 0, 2]},
+    {"code": 411, "indent": 0, "parameters": []},
+    {"code": 101, "indent": 1, "parameters": ["Without the fragment, the mystery remains unsolved.", 0, 0, 2]},
+    {"code": 412, "indent": 0, "parameters": []},
+    {"code": 0, "indent": 0, "parameters": []}
+  ],
+  "note": "Main story event - Sangbo Lake mystery revelation"
+},
+{
+  "id": 40,
+  "name": "Faction Reputation Check",
+  "trigger": 1,
+  "switchId": 40,
+  "list": [
+    {"code": 101, "indent": 0, "parameters": ["Your reputation with various factions affects the outcome...", 0, 0, 2]},
+    {"code": 111, "indent": 0, "parameters": [0, 20, 4]},
+    {"code": 101, "indent": 1, "parameters": ["The Night Watchmen respect your service!", 0, 0, 2]},
+    {"code": 125, "indent": 1, "parameters": [0, 0, 50]},
+    {"code": 411, "indent": 0, "parameters": []},
+    {"code": 111, "indent": 1, "parameters": [0, 21, 4]},
+    {"code": 101, "indent": 2, "parameters": ["The Imperial Court acknowledges your loyalty!", 0, 0, 2]},
+    {"code": 125, "indent": 2, "parameters": [0, 0, 75]},
+    {"code": 411, "indent": 1, "parameters": []},
+    {"code": 111, "indent": 2, "parameters": [0, 22, 4]},
+    {"code": 101, "indent": 3, "parameters": ["The Confucian Academy values your wisdom!", 0, 0, 2]},
+    {"code": 125, "indent": 3, "parameters": [0, 0, 60]},
+    {"code": 411, "indent": 2, "parameters": []},
+    {"code": 101, "indent": 3, "parameters": ["Your reputation is still being established.", 0, 0, 2]},
+    {"code": 412, "indent": 2, "parameters": []},
+    {"code": 412, "indent": 1, "parameters": []},
+    {"code": 412, "indent": 0, "parameters": []},
+    {"code": 0, "indent": 0, "parameters": []}
+  ],
+  "note": "Faction reputation system - affects story outcomes"
+},
+{
+  "id": 50,
+  "name": "Multilingual Dialog",
+  "trigger": 1,
+  "switchId": 50,
+  "list": [
+    {"code": 355, "indent": 0, "parameters": ["$dataSystem.locale === 'zh'"]},
+    {"code": 101, "indent": 1, "parameters": ["你好，我是徐七安，大奉打更人。", 0, 0, 2]},
+    {"code": 411, "indent": 0, "parameters": []},
+    {"code": 355, "indent": 1, "parameters": ["$dataSystem.locale === 'ja'"]},
+    {"code": 101, "indent": 2, "parameters": ["こんにちは、私は徐七安、大奉の夜警です。", 0, 0, 2]},
+    {"code": 411, "indent": 1, "parameters": []},
+    {"code": 355, "indent": 2, "parameters": ["$dataSystem.locale === 'es'"]},
+    {"code": 101, "indent": 3, "parameters": ["Hola, soy Xu Qi'an, Guardián de Dafeng.", 0, 0, 2]},
+    {"code": 411, "indent": 2, "parameters": []},
+    {"code": 101, "indent": 3, "parameters": ["Hello, I am Xu Qi'an, Guardian of Dafeng.", 0, 0, 2]},
+    {"code": 412, "indent": 2, "parameters": []},
+    {"code": 412, "indent": 1, "parameters": []},
+    {"code": 412, "indent": 0, "parameters": []},
+    {"code": 0, "indent": 0, "parameters": []}
+  ],
+  "note": "Multilingual dialog system - supports Chinese, Japanese, Spanish, and English"
+}
+]
